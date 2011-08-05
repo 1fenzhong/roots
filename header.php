@@ -11,6 +11,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<?php roots_stylesheets(); ?>
+
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
 
@@ -69,4 +71,5 @@
 			
 			</div>
 		</header>
+
 	<?php roots_header_after(); ?>
