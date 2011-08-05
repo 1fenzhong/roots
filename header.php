@@ -38,6 +38,8 @@
 				<a id="logo" href="<?php echo home_url(); ?>/">
 					<img src="<?php echo get_header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="<?php bloginfo('name'); ?>">
 				</a>
+
+				<div class="clearfix"></div>
 				
 				<?php if ($roots_options['clean_menu']) { ?>
 					<nav id="nav-main" role="navigation">
