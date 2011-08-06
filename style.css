@@ -39,6 +39,9 @@ ul.widget-ul {
   width: 100%;
   text-align: center; }
 
+#nav-main ul {
+  background: url(img/dot.gif) repeat; }
+
 #content-info .widget-li {
   margin: 0;
   width: 25%; }
