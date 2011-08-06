@@ -18,6 +18,13 @@ body {
   padding: 0 48px 0;
   margin: auto; }
 
+#content a {
+  text-decoration: none;
+  padding: 1px 2px 3px; }
+  #content a:hover {
+    color: #fff;
+    background: #678f11; }
+
 ul.widget-ul {
   width: 100%;
   list-style: none;
