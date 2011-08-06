@@ -69,8 +69,8 @@ add_action('after_setup_theme', 'roots_setup');
 $sidebars = array('Sidebar', 'Footer', 'Home');
 foreach ($sidebars as $sidebar) {
 	register_sidebar(array('name'=> $sidebar,
-		'before_widget' => '<article id="%1$s" class="widget %2$s"><div class="container">',
-		'after_widget' => '</div></article>',
+		'before_widget' => '<li class="widget-li"><article id="%1$s" class="widget %2$s"><div class="container">',
+		'after_widget' => '</div></article></li>',
 		'before_title' => '<h3>',
 		'after_title' => '</h3>'
 	));

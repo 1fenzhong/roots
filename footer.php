@@ -2,7 +2,10 @@
 		<footer id="content-info" class="<?php global $roots_options; echo $roots_options['container_class']; ?>" role="contentinfo">
 			<?php roots_footer_inside(); ?>
 			<div class="container">
+			    <ul class="widget-ul">
 				<?php dynamic_sidebar("Footer"); ?>
+				<div class="clearfix"></div>
+			    </ul>
 				<p class="copy"><small>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></small></p>
 			</div>	
 		</footer>

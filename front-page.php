@@ -2,11 +2,14 @@
 	<?php roots_content_before(); ?>
 		<div id="content" class="<?php echo $roots_options['container_class']; ?>">	
 		<?php roots_sidebar_before(); ?>
-			<aside id="sidebar" class="<?php echo $roots_options['sidebar_class']; ?>" role="complementary">
+			<aside id="sidebar-home" class="<?php echo $roots_options['sidebar_class']; ?>" role="complementary">
 			<?php roots_sidebar_inside_before(); ?>
-				<div class="container">
-				        <?php dynamic_sidebar("Home"); ?>
-				</div>
+			<div class="container">
+			    <ul class="widget-ul">
+				<?php dynamic_sidebar("Home"); ?>
+				<div class="clearfix"></div>
+			    </ul>
+			</div>
 			<?php roots_sidebar_inside_after(); ?>
 			</aside><!-- /#sidebar -->
 		<?php roots_sidebar_after(); ?>
