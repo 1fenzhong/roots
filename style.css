@@ -27,3 +27,7 @@ ul.widget-ul {
   ul.widget-ul li.widget-li {
     float: left;
     margin: 0 16px; }
+
+#logo {
+  width: 100%;
+  text-align: center; }
