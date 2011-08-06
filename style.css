@@ -31,3 +31,7 @@ ul.widget-ul {
 #logo {
   width: 100%;
   text-align: center; }
+
+#content-info .widget-li {
+  margin: 0;
+  width: 25%; }
