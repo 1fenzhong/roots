@@ -41,6 +41,8 @@ ul.widget-ul {
 
 #nav-main ul {
   background: url(img/dot.gif) repeat; }
+  #nav-main ul li a {
+    font-size: 2em; }
 
 #content-info .widget-li {
   margin: 0;
