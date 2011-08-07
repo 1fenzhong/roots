@@ -10,8 +10,11 @@ License:            The Unlicense
 License URI:        http://unlicense.org/
 */
 a {
+  color: #333;
   text-decoration: none; }
   a:hover {
+    color: #678f11; }
+  a:visited {
     color: #678f11; }
 
 body.home {
