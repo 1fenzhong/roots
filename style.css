@@ -58,6 +58,7 @@ ul.widget-ul {
   margin: 0;
   width: 25%; }
 
+/* not roots */
 #nav-main ul li a:hover,
 #nav-main ul li.current > a,
 #nav-main ul li.current-menu-item > a,
