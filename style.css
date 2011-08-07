@@ -59,6 +59,7 @@ ul.widget-ul {
   width: 25%; }
 
 #nav-main ul li a:hover,
+#nav-main ul li.current > a,
 #nav-main ul li.current-menu-item > a,
 #nav-main ul li.current-menu-parent > a,
 #nav-main ul li.current-menu-ancestor > a,

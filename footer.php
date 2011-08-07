@@ -14,6 +14,7 @@
 
 <?php wp_footer(); ?>
 <?php roots_footer(); ?>
+<script src="<?php echo get_template_directory_uri(); ?>/js/L42y.js"></script>
 
 	<!--[if lt IE 7]>
 		<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
