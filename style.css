@@ -9,6 +9,11 @@ Author URI:         http://benword.com/
 License:            The Unlicense
 License URI:        http://unlicense.org/
 */
+a {
+  text-decoration: none; }
+  a:hover {
+    color: #678f11; }
+
 body.home {
   width: auto; }
   body.home .container {
@@ -17,13 +22,6 @@ body.home {
 body {
   padding: 0 48px 0;
   margin: auto; }
-
-#content a {
-  text-decoration: none;
-  padding: 1px 2px 3px; }
-  #content a:hover {
-    color: #fff;
-    background: #678f11; }
 
 ul.widget-ul {
   width: 100%;
@@ -38,6 +36,9 @@ ul.widget-ul {
 #logo {
   width: 100%;
   text-align: center; }
+
+#content a {
+  border-bottom: 1px dotted #666; }
 
 #nav-main ul {
   background: url(img/dot.gif) repeat; }
