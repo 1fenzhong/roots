@@ -52,6 +52,8 @@ ul.widget-ul {
     padding: 1px 16px;
     margin: 0 6px; }
 
+#content-info a:hover {
+  border-bottom: 1px dotted #666; }
 #content-info .widget-li {
   margin: 0;
   width: 25%; }
