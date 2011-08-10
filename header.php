@@ -24,6 +24,10 @@
 	<?php roots_head(); ?>
 
 	<script defer src="<?php echo get_template_directory_uri(); ?>/js/scripts.js"></script>
+
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.vgrid.0.1.4-mod.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/init.js"></script>
 </head>
 
 <body <?php $page_slug = $post->post_name; body_class($page_slug); ?>>
