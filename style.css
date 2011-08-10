@@ -58,6 +58,40 @@ ul.widget-ul {
   margin: 0;
   width: 25%; }
 
+/* home grid */
+.x1 {
+  width: 24.9%; }
+
+.x2 {
+  width: 49.8%; }
+
+.x3 {
+  width: 74.7%; }
+
+.x4 {
+  width: 100%; }
+
+.grid-item {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border: 0; }
+  .grid-item h2.post-title {
+    margin: 0;
+    padding-left: 0;
+    border-left: 0;
+    font-weight: normal;
+    font-size: 18px; }
+  .grid-item div.grid-image {
+    margin-bottom: 1em; }
+  .grid-item div.wp-caption {
+    display: none; }
+
+#main .grid-item .container {
+  background-color: #f3f2ef;
+  margin: 5px;
+  padding: 5px; }
+
 /* not roots */
 #nav-main ul li a:hover,
 #nav-main ul li.current > a,
