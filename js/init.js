@@ -34,5 +34,6 @@ jQuery.noConflict();
 			}, 1000);
 		});
 
+	        $('#nav-main ul li').hover(function(){$('#nav-main ul li').removeClass('current-menu-item');$('#nav-main ul li').removeClass('current');$(this).attr('class','current')} );
 	}); // end of document ready
 })(jQuery); // end of jQuery name space 
