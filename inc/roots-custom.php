@@ -39,4 +39,9 @@ function create_post_type() {
       'taxonomies' => array('log_tag')));
 }
 
+// time format
+function humen_readable_time() {
+  echo human_time_diff(get_the_time('U'), current_time('timestamp'))." 前";
+}
+
 ?>
